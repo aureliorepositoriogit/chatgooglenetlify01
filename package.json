@@ -1,0 +1,15 @@
+{
+  "name": "googlesites-chat-backend",
+  "version": "1.0.0",
+  "description": "Backend para el chat de Google Sites en Netlify con integración GPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aure576",
+  "license": "ISC",
+  "dependencies": {
+    "pusher": "^5.2.0",
+    "openai": "^4.52.7"
+  }
+}
