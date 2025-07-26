@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat con Netlify y GPT</title>
+  <style>
+    #chat-log { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; margin-bottom: 10px; }
+    #chat-form { display: flex; }
+    #chat-input { flex: 1; padding: 5px; }
+    #chat-form button { padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <h1>Chat GPT + Netlify Functions</h1>
+  <div id="chat-log"></div>
+  <form id="chat-form">
+    <input id="chat-input" type="text" placeholder="Escribe tu mensaje..." required />
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="/src/chat-cliente.js"></script>
+</body>
+</html>
